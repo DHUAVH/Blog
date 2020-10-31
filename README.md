@@ -1,2 +1,2 @@
 # Blog
- My blog
+ This is the original version of my blog.
