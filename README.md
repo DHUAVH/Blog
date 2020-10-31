@@ -1,2 +1,2 @@
 # Blog
- My blog
+ This is the final version of my blog.
