@@ -14,7 +14,7 @@
 <body>
    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
       <!-- Brand/logo -->
-      <a class="navbar-brand" href="#" data-toggle="tooltip" title="logo">    <!--提示工具-->
+      <a class="navbar-brand" href="#" data-toogle="tooltip" title="logo">
          <img src="logo.png" alt="logo" style="width: 40px;">
       </a>
 
@@ -22,33 +22,29 @@
          <form action="">
          <div class="form-inline">
             <input class="form-control" type="text" placeholder="Search">
-            <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>    <!--font-awesom-->
+            <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>
          </div>
       </form>
 
       <ul class="navbar-nav ml-auto">
          <li class="nav-item">
-            <a class="nav-link" href="index.php"><i class="fa fa-home"></i> 首页</a>      <!--font-awesom-->
+            <a class="nav-link" href="index.php"><i class="fa fa-home"></i> 首页</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="index.php"><i class="fa fa-map-o"></i> 我的博客</a>    <!--font-awesom-->
+            <a class="nav-link" href="index.php"><i class="fa fa-map-o"></i> 我的博客</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="add.php"><i class="fa fa-pencil"></i> 发表文章</a>     <!--font-awesom-->
+            <a class="nav-link" href="add.php"><i class="fa fa-pencil"></i> 发表文章</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href=show.php data-toggle="tooltip" title="模糊查询"><i class="fa fa-search"></i> 搜索文章</a>
+            <a class="nav-link" href=show.php data-toogle="tooltip" title="模糊查询"><i class="fa fa-search"></i> 搜索文章</a>
          </li>
          <li class="nav-item">
-            <a class="nav-link" href="login.php" data-toggle="tooltip" title="切换账号"><i class="fa fa-reply"></i> 退出登录</a>
+            <a class="nav-link" href="login.php" data-toogle="tooltip" title="切换账号"><i class="fa fa-reply"></i> 退出登录</a>
          </li>
       </ul>
    </nav>
 
-   <script>
-   $(document).ready(function(){
-      $('[data-toggle="tooltip"]').tooltip();   
-  });
-  </script>
+   <script>$(function(){$('[data-toogle='tooltip'].tootip())};)</script>
 </body>
 </html>

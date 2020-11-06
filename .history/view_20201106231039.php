@@ -22,7 +22,6 @@
 			<form role="form">
 				<fieldset>
 					<h1><?php echo $rs['title'];?></h1>
-					<!--面包屑导航-->
 					<div class="breadcrumb">
 						<div class="breadcrumb-item">作者: <?php echo $rs['username'];?></div>
 						<div class="breadcrumb-item">发表时间：<?php echo $rs['date'];?></div>

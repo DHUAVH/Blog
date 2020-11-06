@@ -54,7 +54,6 @@
                                         break;
 
                                         case 2:
-                                            // 可取消的警告框
                                             echo "<div class='alert alert-waring alert-dismissible fade show' role='alert'>";
                                             echo "<strong>警告!用户名和密码不能为空！</strong>";
                                             echo "<button type=button' class='close' data-dismiss='alert' aria-label='Close'>";
@@ -63,7 +62,6 @@
                                         break;
 
                                         case 3:
-                                            // 可取消的警告框
                                             echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>";
                                             echo "<strong>验证码错误!请重新输入验证码！</strong>";
                                             echo "<button type=button' class='close' data-dismiss='alert' aria-label='Close'>";
