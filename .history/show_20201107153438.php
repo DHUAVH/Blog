@@ -6,7 +6,7 @@
 <html lang="en">
 <head>
     <title>search</title>
-    <script src="js\search.js"></script>
+    <script src="/js/search.js"></script>
 </head>
 <body>
     <div class="container">

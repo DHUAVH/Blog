@@ -112,7 +112,7 @@
       $page_banner .= "<li class='page-item'><a class='page-link' href='".$_SERVER['PHP_SELF']."?p=".($total_pages)."'>尾页</a></li>";
   }else{
     $page_banner .= "<li class='page-item'><a class='page-link disable'>尾页</a></li>";
-    $page_banner .= "<li class='page-item'><a class='page-link disable'><下一页</a></li>";
+    $page_banner .= "<li class='page-item'><a class='page-link disable'><上一页</a></li>";
 }
 
   $page_banner .= "<form class='form-inline' action='index.php' method='GET'>";
