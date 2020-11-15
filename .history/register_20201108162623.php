@@ -33,7 +33,7 @@
                         </tr>
 
                         <tr>
-                            <td>邮箱：</td> <td><input type="email" name="email" required></td>
+                            <td>Email：</td> <td><input type="email" name="email" required></td>
                         </tr>
 
                         <tr>

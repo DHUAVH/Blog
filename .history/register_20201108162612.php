@@ -33,7 +33,7 @@
                         </tr>
 
                         <tr>
-                            <td>邮箱：</td> <td><input type="email" name="email" required></td>
+                            <td>Email：</td> <td><input type="email" name="email" required></td>
                         </tr>
 
                         <tr>
@@ -50,7 +50,6 @@
                                     echo "<strong>警告!用户名已存在！</strong>";
                                     echo "<button type=button' class='close' data-dismiss='alert' aria-label='Close'>";
                                     echo "<span aria-hidden='true'>&times;</span>";
-                                    echo "</button>";
                                 break;
 
                                 case 2:
@@ -59,6 +58,7 @@
                                     echo "<button type=button' class='close' data-dismiss='alert' aria-label='Close'>";
                                     echo "<span aria-hidden='true'>&times;</span>";
                                     echo "</button>";
+                                    echo "";
                                 break;
                             }
                             ?>

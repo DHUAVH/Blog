@@ -33,7 +33,7 @@
                         </tr>
 
                         <tr>
-                            <td>邮箱：</td> <td><input type="email" name="email" required></td>
+                            <td>Email：</td> <td><input type="email" name="email" required></td>
                         </tr>
 
                         <tr>
@@ -46,19 +46,11 @@
                             $err=isset($_GET["err"]) ? $_GET["err"] : "";
                             switch($err){
                                 case 1:
-                                    echo "<div class='alert alert-waring alert-dismissible fade show' role='alert'>";
-                                    echo "<strong>警告!用户名已存在！</strong>";
-                                    echo "<button type=button' class='close' data-dismiss='alert' aria-label='Close'>";
-                                    echo "<span aria-hidden='true'>&times;</span>";
-                                    echo "</button>";
+                                    echo "用户名已存在";
                                 break;
 
                                 case 2:
-                                    echo "<div class='alert alert-danger alert-dismissible fade show' role='alert'>";
-                                    echo "<strong>错误!密码与重复密码不一致!</strong>";
-                                    echo "<button type=button' class='close' data-dismiss='alert' aria-label='Close'>";
-                                    echo "<span aria-hidden='true'>&times;</span>";
-                                    echo "</button>";
+                                    echo "密码与重复密码不一致";
                                 break;
                             }
                             ?>
