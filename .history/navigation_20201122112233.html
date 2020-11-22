@@ -14,11 +14,6 @@
    <style>
       #search{
          border-radius: 10px;
-         position: relative;
-         top: 2px;
-         width: 250px;
-         height: 40px;
-         
       }
 
       #result{
@@ -26,9 +21,9 @@
          top: 55px;
          left: 70px;
          z-index: 999;
-         width: 300px;
+         width: 247px;
          height: auto;        
-         background-color: white;
+         background-color: aliceblue;
       }
    </style>
 </head>
@@ -41,12 +36,11 @@
       </a>
 
       <!--导航栏中表单和按钮-->
-         <div>
+         <div class="form-inline">
             <input id="search" type="text" placeholder="search" onkeyup="showHint(this.value)">
-            <button class="btn btn-success"><i class="fa fa-search"></i></button>    <!--font-awesom-->
+            <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>    <!--font-awesom-->
          </div>
          <div id="result"></div>
-         
 
       <ul class="navbar-nav ml-auto">
          <li class="nav-item">

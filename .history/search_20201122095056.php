@@ -14,7 +14,7 @@
         include("conn.php");
 
         $keyword = $_GET['keyword'];
-        $query = "SELECT * FROM user Where title LIKE '%{$keyword}%' Limit 5";
+        $query = "SELECT * FROM user Where title LIKE '%{$keyword}%'";
         
         $result = mysqli_query($link,$query);  
         if(!$result){

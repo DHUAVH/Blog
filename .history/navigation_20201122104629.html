@@ -12,23 +12,10 @@
    <title>navigation</title>
 
    <style>
-      #search{
-         border-radius: 10px;
-         position: relative;
-         top: 2px;
-         width: 250px;
-         height: 40px;
-         
-      }
-
-      #result{
+      .search{
          position: absolute;
-         top: 55px;
-         left: 70px;
-         z-index: 999;
-         width: 300px;
-         height: auto;        
-         background-color: white;
+         top: 25px;
+         left: 60px;
       }
    </style>
 </head>
@@ -41,11 +28,13 @@
       </a>
 
       <!--导航栏中表单和按钮-->
-         <div>
-            <input id="search" type="text" placeholder="search" onkeyup="showHint(this.value)">
-            <button class="btn btn-success"><i class="fa fa-search"></i></button>    <!--font-awesom-->
+      <div class="search">
+         <div class="form-inline">
+            <input id="search" class="form-control" type="text" placeholder="search" onkeyup="showHint(this.value)">
+            <button class="btn btn-success" type="submit"><i class="fa fa-search"></i></button>    <!--font-awesom-->
          </div>
          <div id="result"></div>
+      </div>
          
 
       <ul class="navbar-nav ml-auto">
