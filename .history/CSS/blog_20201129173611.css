@@ -1,0 +1,24 @@
+#search{
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    width: 250px;
+    height: 40px;        
+ }
+
+ #result{
+    position: absolute;
+    top: 58px;
+    left: 70px;
+    z-index: 999;
+    width: 300px;
+    height: auto;        
+    background-color: white;
+    border-radius: 5px;
+ }
+
+ .background{
+    background:url(../images/bg.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+}

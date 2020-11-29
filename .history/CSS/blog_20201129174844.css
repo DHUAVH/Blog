@@ -1,0 +1,32 @@
+.background{
+    background:url(../images/bg.jpg);
+    background-size:contain;
+    background-repeat: no-repeat; 
+}
+
+.search_iradius{
+    border-radius: 10px;
+    position: relative;
+    top: 2px;
+    width: 200px;
+    height: 35px;        
+ }
+
+ .login_iradius{
+    border-radius: 5px;
+
+    top: 5px;
+    width: 200px;
+    height: 40px;        
+ }
+
+ #result{
+    position: absolute;
+    top: 58px;
+    left: 70px;
+    z-index: 999;
+    width: 300px;
+    height: auto;        
+    background-color: white;
+    border-radius: 5px;
+ }

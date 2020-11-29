@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="../bootstrap4/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+   <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+   <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
+   <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="js\search.js"></script>
+   <title>navigation</title>
+
+   <style>
+      #search{
+         border-radius: 10px;
+         position: relative;
+         top: 2px;
+         width: 250px;
+         height: 40px;
+         
+      }
+
+      #result{
+         position: absolute;
+         top: 55px;
+         left: 70px;
+         z-index: 999;
+         width: 300px;
+         height: auto;        
+         background-color: white;
+      }
+   </style>
+</head>
+
+<body>
+   <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand/logo -->
+      <a class="navbar-brand" href="#" data-toggle="tooltip" title="logo">    <!--提示工具-->
+         <img src="images\logo.png" alt="logo" style="width: 40px;">
+      </a>
+
+      <i class="fa fa-search nav-item"></i>    <!--font-awesom-->
+      <!--导航栏中表单和按钮-->
+         <div>
+            
+            <input id="search" type="text" placeholder="search" onkeyup="showHint(this.value)">
+            
+         </div>
+         <div id="result"></div>
+         
+
+      <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="home.php"><i class="fa fa-home"></i> 首页</a>      <!--font-awesom-->
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="index.php"><i class="fa fa-map-o"></i> 我的博客</a>    <!--font-awesom-->
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="add.php"><i class="fa fa-pencil"></i> 发表文章</a>     <!--font-awesom-->
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="login.php" data-toggle="tooltip" title="切换账号"><i class="fa fa-reply"></i> 退出登录</a>
+         </li>
+      </ul>
+   </nav>
+
+   <script>
+   $(document).ready(function(){
+      $('[data-toggle="tooltip"]').tooltip();   
+  });
+  </script>
+</body>
+</html>
